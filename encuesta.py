@@ -33,7 +33,7 @@ class EncuestaLimitadaPorEdad(Encuesta):
         return self.__edad_maxima
     @edad_maxima.setter
     def edad_maxima(self,edad_maxima):
-        self.__edad_maxima=edad_maxima
+        pass
     
     def agregar_listado_respuestas(self, usuario,listado_respuestas, edad_usuario):
         pass
@@ -48,7 +48,7 @@ class EncuestaLimitadaPorRegion(Encuesta):
         return self.__regiones
     @regiones.setter
     def regiones(self,regiones):
-        self.__regiones=regiones
+        pass
     
     def agregar_listado_respuestas(self, usuario,listado_respuestas, region_usuario):
         pass
