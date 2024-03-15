@@ -26,7 +26,7 @@ class EncuestaLimitadaPorEdad(Encuesta):
         return self.__edad_minima
     @edad_minima.setter
     def edad_minima(self,edad_minima):
-        self.__edad_minima=edad_minima
+        pass
         
     @property
     def edad_maxima(self):
